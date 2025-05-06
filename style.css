@@ -60,12 +60,13 @@
 .homepage .main {
   display: inline-flex;
   flex-direction: column;
-  height: 2358px;
+  height: auto; /* Altezza automatica */
   align-items: flex-start;
-  gap: 30px;
+  gap: 10px; /* Spazio ridotto tra sezioni */
   padding: 20px 0px 40px;
   position: relative;
 }
+
 
 .homepage .frame-4 {
   display: flex;
@@ -157,11 +158,12 @@
 .homepage .frame-9 {
   display: flex;
   width: 1728px;
-  height: 844px;
+  height: auto; /* Altezza automatica */
   align-items: flex-start;
   gap: 10px;
   padding: 0px 20px;
   position: relative;
+  margin-bottom: -200px; /* Sovrappone CODE 3 */
 }
 
 .homepage .frame-10 {
@@ -192,16 +194,16 @@
 }
 
 .homepage .frame-11 {
-  display: flex;
+   display: flex;
   width: 1728px;
-  height: 844px;
+  height: auto; /* Altezza automatica */
   align-items: flex-start;
   gap: 10px;
   padding: 0px 20px;
   position: relative;
   margin-bottom: -291.89px;
+  margin-top: -150px; /* Si avvicina a CODE 2 */
 }
-
 .homepage .work-prodotto {
   height: 844px;
   background-color: #020000;
